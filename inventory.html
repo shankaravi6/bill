@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Form</title>
+</head>
+<body>
+<form action="bill.php" method="POST">
+
+    <fieldset>
+      <legend><h2>Enter Your Details:</h2></legend>
+      <h1>Customer Details</h1>
+      <h3>Date: <input type="date" name="date">
+      <h3>Name: <input name="name" type="text"></h3>
+      <h3>Gender:
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Others">Others
+      </h3>
+      <h3>Town:
+        <select name="town">
+          <option value="Tollgate">Tollgate</option>
+          <option value="T.K.St">T.K.St</option>
+          <option value="Market">Market</option>
+          <<option value="Anderson School">AHSS School</option>
+        </select>
+      </h3>
+      <h3>Moblie No: <input type="text" name="num">
+      <br>
+      <h1>Product Details</h1>
+      <h3>Product Name: <input name="pname" type="text"></h3>
+      <h3>Quantity: <input type="number" name="qty" min="1" max="20"></h3>
+      <h3>Price: <input type="text" name="price"></h3>
+      <!--<h3>Tax: <input type="text" name="tax"></h3>-->
+      <h3>Discount: <input type="text" name="dis"></h3>
+
+      <input type="submit" name="submit"  value="Submit">
+      <br><br><br>
+    </fieldset>
+
+
+</form>
+
+</body>
+</html>
